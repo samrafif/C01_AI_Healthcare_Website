@@ -254,10 +254,10 @@ section {
 }
 
 .card-image img {
-  padding: 10px;
-  height: 180px;
-  width: 20rem;
-  border-radius: 20px;
+  /* padding: 10px; */
+  height: 200px;
+  width: 22rem;
+  /* border-radius: 20px; */
   background-size: cover;
 }
 
