@@ -97,7 +97,10 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .topnav-container {
+  position: fixed;
+  width: 100%;
   display: flex;
+  backdrop-filter: blur(10px);
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
@@ -106,6 +109,9 @@ body {
 
 .topnav-container img {
   height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 /* Add a black background color to the top navigation */
