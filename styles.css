@@ -61,7 +61,6 @@ body {
   position: relative;
   display: inline-block;
   transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
 }
 
 .dropdown span {
@@ -221,7 +220,7 @@ section {
   font-weight: 600;
   cursor: pointer;
   transition: all var(--global-trans-delay);
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .button-group {
@@ -523,7 +522,7 @@ footer {
 }
 
 .logos-slide img {
-  height: 50px;
+  height: 100px;
   margin: 0 40px;
   transition: scale var(--global-trans-delay);
 }
@@ -836,4 +835,15 @@ footer {
     display: block;
     text-align: left;
   }
+}
+
+.section-cta {
+  margin-top: 100px;
+  text-align: center;
+ 
+
+  
+}
+.section-p {
+  margin: 50px;
 }
