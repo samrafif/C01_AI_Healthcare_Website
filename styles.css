@@ -168,6 +168,7 @@ body {
 
 /* MAIN START */
 .main-content {
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   align-self: center;
