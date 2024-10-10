@@ -254,13 +254,16 @@ section {
 }
 
 .card-image img {
-  height: 75px;
-  margin: 0.5rem;
-  filter: brightness(50%);
+  padding: 10px;
+  height: 180px;
+  width: 20rem;
+  border-radius: 20px;
+  background-size: cover;
 }
 
 .card-image {
-  margin: 2rem;
+  /* padding: 2rem; */
+  background-size: cover;
 }
 
 .card-content {
