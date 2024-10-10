@@ -722,6 +722,10 @@ footer {
   height: 0;
 }
 
+.menu--right {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and not (max-width: 800px) {
@@ -731,6 +735,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  .menu--right {
+    display: block;
+  }
   .topnav a {
     display: none;
   }
