@@ -39,6 +39,11 @@ body {
 /* GLOBAL END */
 
 /* NAV START */
+
+.menuItem .dropdown span {
+  color: var(--bg-color);
+}
+
 .dropbtn {
   background-color: #04aa6d;
   color: white;
@@ -75,11 +80,12 @@ body {
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
-  color: rgb(0, 0, 0);
+.dropdown-content > a {
+  color: var(--text-color);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  transition: color var(--global-trans-delay);
 }
 
 /* Change color of dropdown links on hover */
@@ -97,7 +103,10 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .topnav-container {
+  position: fixed;
+  width: 100%;
   display: flex;
+  backdrop-filter: blur(10px);
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
@@ -106,6 +115,9 @@ body {
 
 .topnav-container img {
   height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 /* Add a black background color to the top navigation */
@@ -156,6 +168,7 @@ body {
 
 /* MAIN START */
 .main-content {
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -710,6 +723,10 @@ footer {
   height: 0;
 }
 
+.menu--right {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and not (max-width: 800px) {
@@ -719,6 +736,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  .menu--right {
+    display: block;
+  }
   .topnav a {
     display: none;
   }
