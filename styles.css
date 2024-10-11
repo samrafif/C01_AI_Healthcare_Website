@@ -307,6 +307,10 @@ section {
   filter: brightness(100%);
 }
 
+h2 h2-testimonial  {
+  font-size: 5rem;
+}
+
 .card-content span,
 .testimonial-item span {
   color: var(--text-color);
